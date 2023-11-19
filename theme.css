@@ -17,7 +17,8 @@ body {
     --h4-size: 1.266em;
     --h5-size: 1.125em;
     --h6-size: 1em;
-    --h1-style: norm
+    --h1-style: norm;
+    
 }
 
 .theme-dark {
@@ -108,9 +109,9 @@ svg * {
     line-height: var(--h1-line-height);
     font-size: var(--h1-size);
     color: #B296C8;
-    font-weight: var(--h1-weight);
+    font-weight: 300;
     font-style: var(--h1-style);
-    font-family: var(--h1-font);
+    font-family: "Forbes";
 	text-align: center;
 }
 
@@ -120,9 +121,9 @@ svg * {
     line-height: var(--h2-line-height);
     font-size: var(--h2-size);
     color: #B296C8;
-    font-weight: var(--h2-weight);
+    font-weight: 300;
     font-style: var(--h2-style);
-    font-family: var(--h2-font);
+    font-family: "Forbes";
 	text-align: center;
 }
 
@@ -132,9 +133,9 @@ svg * {
     line-height: var(--h3-line-height);
     font-size: var(--h3-size);
     color: #B296C8;
-    font-weight: var(--h3-weight);
+    font-weight: 300;
     font-style: var(--h3-style);
-    font-family: var(--h3-font);
+    font-family: "Forbes";
 	text-align: center;
 }
 
@@ -157,6 +158,17 @@ svg * {
     left: 0;
     right: 0;
     background-color: #303030;
+}
+
+.cm-strong {
+    font-weight: 500;
+    color: #FDEB49;
+}
+
+.cm-em {
+    font-style: italic;
+    color: #808080;
+    font-weight: var(--italic-weight);
 }
 
 .cm-keyword {
