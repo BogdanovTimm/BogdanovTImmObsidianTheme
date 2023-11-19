@@ -11,7 +11,7 @@ body {
 	--background-secondary: #252525;
 	--vault-name-color: #808080;
 	--code-comment: #808080;
-	--h1-size: 2.800em;
+	--h1-size: 3.800em;
     --h2-size: 2.000em;
     --h3-size: 1.500em;
     --h4-size: 1.266em;
@@ -109,9 +109,9 @@ svg * {
     line-height: var(--h1-line-height);
     font-size: var(--h1-size);
     color: #FDEB49;
-    font-weight: 300;
+    font-weight: 700;
     font-style: var(--h1-style);
-    font-family: "Cooper Black";
+    font-family: "New Spirit";
 	text-align: center;
 }
 
@@ -121,9 +121,9 @@ svg * {
     line-height: var(--h2-line-height);
     font-size: var(--h2-size);
     color: #FDEB49;
-    font-weight: 300;
+    font-weight: 500;
     font-style: var(--h2-style);
-    font-family: "Cooper Black";
+    font-family: "New Spirit";
 	text-align: center;
 }
 
@@ -135,7 +135,7 @@ svg * {
     color: #FDEB49;
     font-weight: 300;
     font-style: var(--h3-style);
-    font-family: "Cooper Black";
+    font-family: "New Spirit";
 	text-align: center;
 }
 
